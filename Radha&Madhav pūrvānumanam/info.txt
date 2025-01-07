@@ -1,0 +1,71 @@
+{
+  "coord": {
+    "lon": 80.9167,
+    "lat": 26.85
+  },
+  "weather": [
+    {
+      "id": 721,
+      "main": "Haze",
+      "description": "haze",
+      "icon": "50d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 306.14,
+    "feels_like": 313.14,
+    "temp_min": 306.14,
+    "temp_max": 306.14,
+    "pressure": 996,
+    "humidity": 66,
+    "sea_level": 996,
+    "grnd_level": 983
+  },
+  "visibility": 5000,
+  "wind": {
+    "speed": 1.03,
+    "deg": 0
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1720767018,
+  "sys": {
+    "type": 1,
+    "id": 9176,
+    "country": "IN",
+    "sunrise": 1720741835,
+    "sunset": 1720791176
+  },
+  "timezone": 19800,
+  "id": 1264733,
+  "name": "Lucknow",
+  "cod": 200
+}
+
+
+
+ temp_min.innerHTML = response.main.temp_min 
+ temp_max.innerHTML = response.main.temp_max 
+ pressure.innerHTML = response.main.pressure 
+ humidity.innerHTML = response.main.humidity
+
+sunris.innerHTMLe=response.sys.sunrise
+sunse.innerHTMLt=response.sys.sunset
+spee.innerHTMLd=response.wind.speed 
+de.innerHTMLg=response.wind.deg 
+
+
+
+temp.innerHTML = response.main.temp;
+    temp_min.innerHTML = response.main.temp_min;
+    temp_max.innerHTML = response.main.temp_max;
+    pressure.innerHTML = response.main.pressure;
+    humidity.innerHTML = response.main.humidity;
+    speed.innerHTML = response.wind.speed;
+    deg.innerHTML = response.wind.deg;
+    sunrise.innerHTML = response.sys.sunrise;
+    sunset.innerHTML = response.sys.sunset;
+    visibility.innerHTML = response.visibility;
+    description.innerHTML = response.weather[0].description;
